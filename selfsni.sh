@@ -331,5 +331,5 @@ server {
         add_header Strict-Transport-Security "max-age=63072000" always;
 }
 EOF
-mv /var/www/html/index.nginx-debian.html /var/www/html/index.html
+mv -f /var/www/html/index.nginx-debian.html /var/www/html/index.html
 systemctl restart nginx
