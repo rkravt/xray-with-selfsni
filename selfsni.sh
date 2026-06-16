@@ -103,7 +103,7 @@ cat << EOF > /usr/local/etc/xray/config.json
                 "network": "tcp",
                 "security": "tls",
                 "tlsSettings": {
-                  "fingerprint": "chrome",
+                  "fingerprint": "firefox",
                   "alpn": "http/1.1",
                   "certificates": [
                     {
